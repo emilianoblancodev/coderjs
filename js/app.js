@@ -12,7 +12,7 @@ function cargarEventListeners() {
      // Se va a ejecutar cuando se presiona "Agregar al Carrito"
      listaProductos.addEventListener('click', agregarProducto);
 
-     // Cuando se elimina un curso del carrito
+     // Cuando se elimina un producto del carrito
      carrito.addEventListener('click', eliminarProducto);
 
      // Al Vaciar el carrito
