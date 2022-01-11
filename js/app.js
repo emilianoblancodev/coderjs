@@ -32,10 +32,10 @@ function agregarProducto(e) {
 }
 
 // Lee los datos del producto
-function leerDatosCurso(producto) {
+function leerDatosProducto(producto) {
      const infoProducto = {
           imagen: producto.querySelector('img').src,
-          titulo: producto.querySelector('h4').textContent,
+          titulo: producto.querySelector('h5').textContent,
           precio: producto.querySelector('.precio span').textContent,
           id: producto.querySelector('a').getAttribute('data-id'), 
           cantidad: 1
@@ -59,5 +59,7 @@ function leerDatosCurso(producto) {
      // console.log(articulosCarrito)
      carritoHTML();
 }
+// Faltantes
+// Eliminar el producto del carrito en el DOM 
+// ver como hago para meter el html para el carrito y que se pueda manipular todo
 
-// Eliminar el producto del carrito en el DOM
